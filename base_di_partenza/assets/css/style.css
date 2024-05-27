@@ -280,9 +280,11 @@ footer a {
   }
   header div p {
     margin: 0;
+    vertical-align: 2rem;
   }
   header nav {
     margin-left: 20em;
+    vertical-align: 2rem;
   }
   main ul {
     line-height: 2.8rem;
