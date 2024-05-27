@@ -322,3 +322,30 @@ footer a {
     padding: 1em 11em;
   }
 }
+@media print {
+  header,
+  iframe,
+  section,
+  aside,
+  footer {
+    display: none;
+  }
+  body {
+    padding: 0;
+  }
+  html {
+    font-size: 40%;
+  }
+  article {
+    font-size: 3.5rem;
+  }
+  ar .htmlLogo {
+    height: 15rem;
+    width: 15rem;
+    display: inline-block;
+  }
+  .positionRelative {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
